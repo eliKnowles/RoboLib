@@ -4,6 +4,8 @@ import org.firstinspires.ftc.teamcode.robolib.datatypes.Wheel;
 
 public class Drive {
 
+    // <!> USE MECANUM WHEELS <!> //
+
     public static double getWheelPower(Wheel wheel, double x, double y, double rx, boolean fieldCentric) {
 
         /*
